@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net472</TargetFramework>
+        <RootNamespace>Vif_siemens_compiler</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+
+
+    <ItemGroup>
+      <Reference Include="Siemens.Engineering">
+        <HintPath>..\..\..\..\..\..\..\..\Program Files\Siemens\Automation\Portal V16\PublicAPI\V16\Siemens.Engineering.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Net.Http" />
+    </ItemGroup>
+
+
+
+
+    <ItemGroup>
+      <PackageReference Include="Crayon" Version="2.0.69" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Sharprompt" Version="2.4.5" />
+      <PackageReference Include="Watson" Version="6.1.6" />
+
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+</Project>
